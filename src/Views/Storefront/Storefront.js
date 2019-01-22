@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from "react-helmet";
 import API from '../../Utils/API';
 
 import Banner from '../../Components/Banner';
@@ -41,6 +42,10 @@ class Storefront extends Component {
     render() {
         return (
 			<div className="StorefrontPage">
+                <Helmet>
+                    <title>Storefront - Metapic</title>
+                </Helmet>
+
                 <Banner>
                     <div className="title">Storefront</div>
                 </Banner>
