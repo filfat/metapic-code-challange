@@ -1,0 +1,37 @@
+@import '../../scss/shared.scss';
+
+header {
+    height: 75px;
+    padding: 0px 25px;
+    background: transparent;
+
+    .content {
+        max-width: 2048px;
+        margin: 0px auto;
+        font-size: 1.25rem;
+
+        .title {
+            display: inline;
+            padding: 0px; margin: 0px;
+            line-height: 75px;
+        }
+        nav {
+            float: right;
+            height: 75px;
+            text-transform: uppercase;
+
+            a {
+                margin-left: 25px;
+
+                color: #000;
+
+                line-height: 75px;
+                transition: 250ms;
+
+                &:hover {
+                    border-bottom: 1px solid #000;
+                }
+            }
+        }
+    }
+}

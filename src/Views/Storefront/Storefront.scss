@@ -1,0 +1,16 @@
+.StorefrontPage {
+    margin: 0px auto;
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        max-width: 2048px;
+        margin: 0px auto;
+
+        .ProductCard {
+            margin: 15px;
+        }
+    }
+}
